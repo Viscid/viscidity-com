@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.headerFullname {
+  border-bottom: 1px solid #DDD;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.headerSubheading {
+  color: #d18042;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h1, h2 {
+  margin: 0; padding: 5px;
+}
+
+p {
+  margin: 0; padding: 0;
+}
+
+.headerParagraph {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.controls {
+  padding: 1em;
+}
+
+@media(max-width: 650px) {
+  header {
+    padding: 0;
+  }
+
+  .controls {
+    padding: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.paneSelectorUnderline {
+    transition: background 0.3s ease-in-out;
+    height: 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.paneSelectorList {
+    margin: 0 auto;
+    padding: 0;
+    height: 38px;
+    overflow: hidden;
+}
+
+.paneSelectorItem {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 39px;
+
+}
+
+.paneSelectorItem a {
+    cursor: pointer;
+    user-select: none;
+}
+
+.active {
+    font-weight: bold;
+}

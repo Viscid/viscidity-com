@@ -1,0 +1,64 @@
+.project {
+    margin: 10px auto;
+    border: 2px solid #CCC;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.projectHeader {
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.projectHeader a {
+    color: #d18042;
+    text-decoration: none;
+}
+
+.projectHeader a:hover {
+    text-decoration: underline;
+}
+
+.projectImage {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.projectContent {
+    padding: 0.5em;
+}
+
+.projectVideo {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 400px;
+    margin: 1em;
+}
+
+.projectDescription {
+    padding: 0.5em;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.projectDescription > a {
+    text-decoration:none;
+    font-weight: bold;
+    color: #d18042;
+}
+
+.projectDescription > a:hover {
+    text-decoration:underline;
+}
+
+@media(max-width: 650px) {
+    .projectVideo {
+        width: 250px;
+    }
+}

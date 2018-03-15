@@ -1,0 +1,26 @@
+.contactInfoContainer {
+    text-align: left;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.contactInfoDescription {
+    margin-bottom: 1em;
+}
+
+.contactDataLabel {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2em;
+}
+
+.contactDataContent {
+    display: inline-block;
+}
+
+.contactInfoContainer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #d18042;
+}

@@ -1,0 +1,29 @@
+.aboutPaneContainer {
+    text-align: left;
+}
+
+.aboutPaneContainer > p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.aboutPaneContainer > p > a {
+    text-decoration:none;
+    font-weight: bold;
+    color: #d18042;
+}
+
+.aboutPaneContainer > p > a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.aboutPaneHeader {
+    text-align: center;
+}
+
+.profilePic {
+    float: left;
+    width: 150px;
+    margin: 0 1em 0.5em 0;
+}

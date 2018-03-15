@@ -1,0 +1,17 @@
+.bullet {
+    font-size: 45px;
+    color: #BBB;
+    cursor: pointer;
+    user-select: none;
+    line-height: 10px;
+    text-shadow: 2px 2px 3px #AAA;
+}
+
+.active {
+    font-weight: bold;
+    color: orange;
+}
+
+.bullet:not(.active):hover {
+    color: rgb(219, 219, 219);
+}

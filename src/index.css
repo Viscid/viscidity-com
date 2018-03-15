@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Crimson Text', serif;
+  height: 100%;
+}
+
+#root {
+  width: 650px;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+@media(max-width: 650px) {
+  #root {
+    width: 400px;
+    margin: 10px auto;
+  }
+}
+
