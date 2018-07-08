@@ -9,7 +9,9 @@ var SorobanProject = () => {
             Though there are an excessive amount of timers out there (mainly pomodoro-type timers) none really met my own
             personal needs. I also wanted to create a project using React &amp; Typescript, which I had never used in concert
             before. </p>
-            <video className="projectVideo" src="exercistdemo.webm" autoPlay={true} loop={true} />
+            <a target="_blank" href="http://exercist.viscidity.com"> 
+                <video className="projectVideo" src="exercistdemo.webm" autoPlay={true} loop={true} />
+            </a>
             <p className="projectDescription"> <a target="_blank" href="http://exercist.viscidity.com"> Exercist </a> is a <a href="https://reactjs.org/">React</a> &amp; 
             &#32;<a href="https://www.typescriptlang.org/">Typescript</a> application that allows you to create customized exercises and
             routines with complex timings, and then play the routine back with a fairly standard-looking stopwatch interface. I also

@@ -5,7 +5,9 @@ var SorobanProject = () => {
         <div className="project"> 
         <h3 className="projectHeader"> <a target="_blank" href="http://onetwo.viscidity.com"> OneTwo Soroban </a> </h3>
         <div className="projectContent">
-            <video className="projectVideo" src="sorobandemo.webm" autoPlay={true} loop={true} />
+            <a target="_blank" href="http://onetwo.viscidity.com">
+              <video className="projectVideo" src="sorobandemo.webm" autoPlay={true} loop={true} />
+            </a>
             <p className="projectDescription"> In 2015, I found out there is a very novel approach to teaching children mental 
             arithmetic. It involves training them to visualize a Japanese abacus called a&#32;
             <a target="_blank" href="http://en.wikipedia.org/wiki/Soroban">soroban</a> and to calculate results by seeing 

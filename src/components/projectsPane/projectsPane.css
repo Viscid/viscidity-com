@@ -57,6 +57,11 @@
     text-decoration:underline;
 }
 
+.projectDescription ul {
+    text-align: left;
+}
+
+
 @media(max-width: 650px) {
     .projectVideo {
         width: 250px;

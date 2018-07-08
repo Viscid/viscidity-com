@@ -5,7 +5,9 @@ var ViscityProject = () => {
         <div className="project"> 
         <h3 className="projectHeader"> <a target="_blank" href="http://www.viscity.org"> Viscity.org </a> </h3>
         <div className="projectContent">
-            <video className="projectVideo" src="viscitydemo.webm" autoPlay={true}  loop={true} />
+            <a target="_blank" href="http://viscity.org">
+                <video className="projectVideo" src="viscitydemo.webm" autoPlay={true}  loop={true} />
+            </a>
             <p className="projectDescription"> One of my favourite projects to do is writing forums
             and message boards from scratch. I love the immediate satisfaction that comes from 
             developing an online community and having users appreciate the work put into it. </p>

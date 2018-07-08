@@ -18,7 +18,7 @@ export default class AboutPane extends React.Component<{}, {}> {
                         advanced Javascript frameworks running on standards-compliant browsers today. I now find web development pretty fun.
                     </p>
 
-                    <p> My design philosophy values clarity (both in aesthetics and code,) simplicty, and intuitiveness. When a user tries a new application,
+                    <p> My design philosophy values simplicity, intuitiveness, and clarity in both aesthetics and code. When a user tries a new application,
                         they should be able to use it effectively without training. The code should be efficient, easily comprehensible and functional, allowing
                         additions and revisions to be as pain-free as possible. </p>
                         

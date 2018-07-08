@@ -7,6 +7,8 @@ import ProjectSelector from './projectSelector';
 import ViscityProject from './projectViscity';
 import SorobanProject from './projectSoroban';
 import ProjectExercist from './projectExercist';
+import KanaryProject from './projectKanary';
+import EffectIndexProject from './projectEffectIndex';
 
 interface ProjectsPaneState {
     selectedProject: number;
@@ -29,8 +31,10 @@ export default class ProjectsPane extends React.Component<{}, ProjectsPaneState>
     render() {
         let projects = [
             (<ViscityProject />),
+            (<KanaryProject />),
             (<SorobanProject />),
-            (<ProjectExercist />)
+            (<EffectIndexProject />),
+            (<ProjectExercist />),
         ];
 
         return (
