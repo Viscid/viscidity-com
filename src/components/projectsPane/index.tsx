@@ -31,15 +31,14 @@ export default class ProjectsPane extends React.Component<{}, ProjectsPaneState>
     render() {
         let projects = [
             (<ViscityProject />),
+            (<EffectIndexProject />),
             (<KanaryProject />),
             (<SorobanProject />),
-            (<EffectIndexProject />),
             (<ProjectExercist />),
         ];
 
         return (
             <div>
-                <h2> Project Demos </h2>
                 <ProjectSelector count={projects.length} onSelect={this.selectProject} />
                 <div className="projectsContainer">
                     {projects[this.state.selectedProject]}
